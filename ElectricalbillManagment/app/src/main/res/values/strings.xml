@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">ElectricityMangement</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="btn_add_contact"><u>Pay Eletrical Bill</u></string>
+    <string name="billhistory"><u>Bill Histrory</u></string>
+    <string name="radinghistory"><u>Reading Histrory</u></string>
+</resources>

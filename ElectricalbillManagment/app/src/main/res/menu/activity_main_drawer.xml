@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_billgenrate"
+            android:icon="@drawable/ic_history_black_24dp"
+            android:title="Meter Reading" />
+        <item
+            android:id="@+id/nav_paybill"
+            android:icon="@drawable/ic_history_black_24dp"
+            android:title="Pay Bill" />
+        <item
+            android:id="@+id/nav_previoushis"
+            android:icon="@drawable/ic_history_black_24dp"
+            android:title="View Previous History" />
+        <item
+            android:id="@+id/nav_currentbill"
+            android:icon="@drawable/ic_chrome_reader_mode_black_24dp"
+            android:title="Current Bill" />
+        <item
+            android:id="@+id/nav_readinghistory"
+            android:icon="@drawable/ic_system_update_black_24dp"
+            android:title="Reading History" />
+        <item
+            android:id="@+id/livedetection"
+            android:icon="@drawable/ic_system_update_black_24dp"
+            android:title="Live Detection" />
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/ic_power_settings_new_black_24dp"
+            android:title="Logout" />
+    </group>
+
+
+
+</menu>

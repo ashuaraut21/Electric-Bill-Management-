@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.omsai.electricitybillgenration.Registration">
+
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="30dp"
+        android:textColor="#000000"
+        android:textSize="18dp"
+        android:textStyle="bold|italic"
+        android:text="REGISTRATION" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+            <EditText
+                android:id="@+id/name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:ems="10"
+                android:layout_marginTop="20dp"
+                android:inputType="textPersonName"
+                android:hint="Name" />
+
+            <EditText
+                android:id="@+id/number"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:ems="10"
+                android:layout_marginTop="20dp"
+                android:inputType="number"
+                android:maxLength="10"
+                android:hint="Mobile Number" />
+
+
+            <EditText
+                android:id="@+id/buno"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:ems="10"
+                android:layout_marginTop="20dp"
+                android:maxLength="4"
+                android:inputType="number"
+                android:hint="4 digit BU No" />
+
+            <EditText
+                android:id="@+id/consumerno"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:ems="10"
+                android:maxLength="12"
+                android:layout_marginTop="20dp"
+                android:inputType="number"
+                android:hint="12 digit Consumber No" />
+
+            <EditText
+                android:id="@+id/emailid"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:ems="10"
+                android:layout_marginTop="20dp"
+                android:inputType="textPersonName"
+                android:hint="Email Id" />
+
+            <EditText
+                android:id="@+id/password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:ems="10"
+                android:layout_marginTop="20dp"
+                android:inputType="textPassword"
+                android:hint="Password" />
+
+            <Button
+                android:id="@+id/submit"
+                android:layout_width="229dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/buttonshape"
+                android:layout_gravity="center"
+
+                android:text="SUBMIT"
+                android:textColor="#FFFFFF" />
+
+            <Button
+                android:id="@+id/signin"
+                android:layout_width="229dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="20dp"
+android:layout_marginBottom="100dp"
+                android:background="@drawable/buttonshapediff"
+
+                android:layout_gravity="center"
+                android:textColor="#FFFFFF"
+                android:text="SIGN IN" />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:layout_margin="20dp"
+    >
+
+    <Button
+        android:id="@+id/on"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#129832"
+        android:textColor="#ffffff"
+
+        android:text="OFF Light" />
+
+    <Button
+        android:id="@+id/off"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#129832"
+        android:textColor="#ffffff"
+        android:layout_marginTop="20dp"
+        android:text="ON Light" />
+
+    <TextView
+        android:id="@+id/time"
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+
+        android:layout_gravity="center"
+        android:gravity="center"
+
+
+
+        android:text="" />
+    <TextView
+        android:id="@+id/livedata"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_gravity="center"
+        android:gravity="center"
+
+        android:textSize="30dp"
+        android:layout_marginTop="30dp"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/consumeunit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+
+        android:layout_gravity="center"
+        android:gravity="center"
+
+
+        android:textSize="30dp"
+        android:text="" />
+</LinearLayout>
